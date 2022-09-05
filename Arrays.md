@@ -16,3 +16,5 @@ Create a list to store these monthly expenses and using that find out,
     5. You returned an item that you bought in a month of April and
     got a refund of 200$. Make a correction to your monthly expense list
     based on this
+ [Solution](https://github.com/PratikshaVyas93/Data_structure_algorithm_python/blob/main/Arrays/arrays.py)
+
