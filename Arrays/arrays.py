@@ -18,3 +18,34 @@ print(f"adding an item to exp for june {exp}")
 """
 exp[3] = exp[3]-200
 print(f"sfter adding bonus 200 in the month of appril {exp}")
+
+
+# Operation 2 
+
+heros=['spider man','thor','hulk','iron man','captain america']
+print("len of the heros", len(heros))
+heros.append("black panther")
+print(heros)
+heros.remove("black panther")
+print(heros)
+heros.insert(3,'black panthe')
+print(heros)
+heros.remove('thor')
+heros.remove('hulk')
+heros.insert(1,'doctor strange')
+print(heros)
+print(heros.sort,"sorted list")
+print(dir(heros),"heros in dir")
+
+# operation 3
+numbers = int(input("please enter number:"))
+print("number",numbers)
+list_odd = []
+list_even = []
+for i in range(1,numbers):
+    if i%2!=0:
+        list_odd.append(i)
+        print(list_odd,"This is list of odd number")
+    else:
+        list_even.append(i)
+        print(f" {list_even} List of even number")
