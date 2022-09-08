@@ -30,9 +30,8 @@ heros.remove("black panther")
 print(heros)
 heros.insert(3,'black panthe')
 print(heros)
-heros.remove('thor')
-heros.remove('hulk')
-heros.insert(1,'doctor strange')
+# one line of code to add doctor strange in the place of thor and hulk
+heros[1:3]= ['doctor strange']
 print(heros)
 print(heros.sort,"sorted list")
 print(dir(heros),"heros in dir")
